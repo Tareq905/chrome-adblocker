@@ -1,0 +1,16 @@
+{
+    "name": "Coding With Shadow",
+    "version": "1.0",
+    "description": "This will block any kind of adds on your google chrome browser...",
+    "permissions": ["webrequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "icon":
+    {
+        "16": "icon/logo_1.png",
+        "48":"icon/logo_2.png",
+        "128":"icon/logo_3.png"
+    },
+    "manifest_version": 2
+}
